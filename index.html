@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Checkers | HTML5</title>
+    <script type="text/javascript" src="game.js"></script>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onResize="drawGame()">
+    <canvas id="board">
+        <span id="no_html5">Your Browser Does Not Support HTML5's Canvas Feature. Please Try Again Using Either Chrome Or Safari.</span>
+    </canvas>
+    <div id="score_card"></div>
+    <footer></footer>
+    <script type="text/javascript">
+        initializeGame();
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <title>Checkers Mobile | HTML5</title>
+    <script type="text/javascript" src="game.js"></script>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onorientationchange="setTimeout('initializeGame()',200)">
+    <canvas id="board"></canvas>
+    <div id="score_card"></div>
+    <footer></footer>
+    <script type="text/javascript">
+        setTimeout("initializeGame()",750);
+        //showWinningMessage();
+    </script>
+</body>
+</html>

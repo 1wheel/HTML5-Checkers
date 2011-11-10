@@ -1,0 +1,61 @@
+footer {
+    background-color:#000000;
+    position:absolute;
+    left:0px;
+    height:25px;
+    color:#FFFFFF;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+}
+
+#board {
+    border:1px solid black;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+
+#score_card {
+    background-color:#AFEEEE;
+    position:absolute;
+}
+
+#restart_game {
+    border:2px solid black;
+    border-radius:10px;
+    -webkit-box-shadow: 3px 3px 2px #888;
+    margin:5px;
+    padding:5px;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.player {
+    float:left;
+    border:2px solid black;
+    border-radius:10px;
+    margin:5px;
+    padding:5px;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+}
+
+#whosturn {
+    position:absolute;
+    border:2px solid black;
+    border-radius:10px;
+    margin:5px;
+    padding:5px;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+}
+
+#no_html5 {
+    color:#FF0000;
+    font-size:larger;
+}
